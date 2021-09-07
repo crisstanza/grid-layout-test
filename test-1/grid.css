@@ -1,0 +1,14 @@
+h1 { margin: 0; }
+
+div {
+	margin: 5px;
+	border: 1px dotted gray;
+}
+
+div.group {
+	border: 2px solid darkgray;
+}
+div.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
